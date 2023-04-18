@@ -38,10 +38,10 @@ public class Exercise4 {
     }
 
     public static double calculateAverage(int[] numbers) throws Exception {
-        // TODO: Calculate the average of the numbers
-
         // TODO: If the array is empty, throw an exception with the message "Cannot calculate the average of an empty array"
 
+        // TODO: Calculate the average of the numbers
+        
         // TODO: Otherwise, calculate the average and return it
 
         return 0;
