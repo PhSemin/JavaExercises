@@ -41,8 +41,8 @@ public class Exercise4 {
         // TODO: If the array is empty, throw an exception with the message "Cannot calculate the average of an empty array"
 
         // TODO: Calculate the average of the numbers
-        
-        // TODO: Otherwise, calculate the average and return it
+
+        // TODO: Return the average
 
         return 0;
     }
