@@ -8,7 +8,7 @@ public class Exercise1 {
         System.out.println("Let's count some sheep!");
 
         // while loop
-        while (/* condition */) {
+        while (sheep > 0 /* fix the condition so the counting is correct */) {
             System.out.println(sheep + " sheep");
             // increment sheep counter
             sheep++;
@@ -21,12 +21,12 @@ public class Exercise1 {
             System.out.println(sheep + " sheep");
             // increment sheep counter
             sheep++;
-        } while (/* condition */);
+        } while (false /* change the condition */);
         System.out.println("Sheep counted with do-while loop: " + sheep);
         sheep = 0;
 
         // for loop
-        for (/* initialization */; /* condition */; /* update */) {
+        for (/* initialization */; sheep > 0 /* fix the condition so the counting is correct */; /* update */) {
             System.out.println(sheep + " sheep");
             // increment sheep counter
             sheep++;

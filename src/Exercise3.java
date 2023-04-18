@@ -2,9 +2,9 @@
 
 public class Exercise3 {
     public static void main(String[] args) {
-        int num1 = /* fill in */;
-        int num2 = /* fill in */;
-        String action = /* fill in */;
+        int num1 = 0 /* fill in */;
+        int num2 = 0 /* fill in */;
+        String action = "" /* fill in */;
 
         // "if" statement checks if the condition is true
         if (action.equals("/") && num2 == 0) {
@@ -15,24 +15,24 @@ public class Exercise3 {
             System.out.println("Calculating...");
         }
 
-        int result;
+        int result = 0;
 
         // "switch" statement checks if argument is equal to any of the possible values
         switch(action) {
             case "+":
-                /* fill in */ num1 + num2 /* fill in */;
+                /* fill in */;
                 break;
             case "-":
-                /* fill in */ num1 - num2 /* fill in */;
+                /* fill in */;
                 break;
             case "*":
-                /* fill in */ num1 * num2 /* fill in */;
+                /* fill in */;
                 break;
             case "/":
-                /* fill in */ num1 / num2 /* fill in */;
+                /* fill in */;
                 break;
             case "%":
-                /* fill in */ num1 % num2 /* fill in */;
+                /* fill in */;
                 break;
             default:
                 System.out.println("Invalid operator");

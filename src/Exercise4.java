@@ -10,6 +10,9 @@ should handle the case when the array is empty.
 - Inside the calculateAverage method, calculate the average of the numbers. You can use a for loop to iterate over
     the array and sum up the numbers, and then divide the sum by the length of the array.
 - If the array is empty, throw an exception with the message "Cannot calculate the average of an empty array".
+    This is done by creating an object of class Exception with the required message it and using the keyword "throw"
+    to throw it:
+        throw new Exception("This is the exception message");
 - Run the program and observe the output. If the array is not empty, the program should print the average.
     If the array is empty, the program should print the error message.
 
@@ -29,15 +32,18 @@ public class Exercise4 {
             double average = calculateAverage(numbers);
             System.out.println("The average is: " + average);
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.print("An exception occurred! Rest of the program is skipped and we jump here to handle it. ");
+            System.out.println("The exception message is: " + e.getMessage());
         }
     }
 
-    public static double calculateAverage(int[] numbers) {
+    public static double calculateAverage(int[] numbers) throws Exception {
         // TODO: Calculate the average of the numbers
 
         // TODO: If the array is empty, throw an exception with the message "Cannot calculate the average of an empty array"
 
         // TODO: Otherwise, calculate the average and return it
+
+        return 0;
     }
 }
