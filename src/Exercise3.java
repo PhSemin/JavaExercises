@@ -24,6 +24,7 @@ Then the "switch" has to perform the needed mathematical operation on two number
 and write the result to the variable "result". Then run the code and check that various calculations are correct.
 Have fun!
 */
+
 public class Exercise3 {
     public static void main(String[] args) {
         int num1 = 0 /* fill in */;
